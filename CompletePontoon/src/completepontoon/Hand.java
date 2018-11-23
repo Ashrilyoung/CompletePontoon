@@ -17,11 +17,11 @@ public class Hand {
     int noOfCards = 52;
     private int cardNo = 0;
     private String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
-    private String[] values = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jester", "Queen", "King", "Ace"};
+    private String[] values = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
 
     ArrayList<String> hand = new ArrayList<String>();
 
-    public void Hand() {  //function to generate a shuffled card deck
+    public void hand() {  //function to generate a shuffled card deck
 
         int suitsNo = 0;
         int valuesNo = 0;

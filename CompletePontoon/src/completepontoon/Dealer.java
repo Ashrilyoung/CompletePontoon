@@ -5,10 +5,29 @@
  */
 package completepontoon;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author 16007873
  */
-public class Dealer {
-    
+public class Dealer extends GamePlayers {
+
+    private ArrayList<String> dealerCards = new ArrayList<String>();
+    private int cardValue = 0;
+
+    public void dealer(String newCard) {
+        dealerCards.add(newCard);
+        System.out.println(dealerCards);
+    }
+
+    public void dealervalue(int cardValue) {
+        cardValue = cardValue;
+        System.out.println(cardValue);
+    }
+
+    public ArrayList<String> getDealerCards() {
+        return dealerCards;
+    }
+
 }

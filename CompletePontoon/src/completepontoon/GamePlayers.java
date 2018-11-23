@@ -5,10 +5,17 @@
  */
 package completepontoon;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author 16007873
  */
-public class GamePlayers {
+public abstract class GamePlayers {
     
+
+    
+    public void gamePlayers(String newCard){
+    }
+
 }

@@ -17,7 +17,7 @@ public class CompletePontoon {
     public static void main(String[] args) {
         // TODO code application logic here
         GameMenu menu = new GameMenu();
-        menu.GameMenu();
+        menu.gameMenu();
 
     }
 
